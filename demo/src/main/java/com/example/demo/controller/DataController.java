@@ -1,8 +1,11 @@
-package com.example.demo;
+package com.example.demo.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.example.demo.model.Data;
+import com.example.demo.model.DataResponse;
 
 import java.util.ArrayList;
 import java.util.List;
